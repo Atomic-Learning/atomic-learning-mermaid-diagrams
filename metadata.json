@@ -1,22 +1,22 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Atomic Learning: Including Mermaid Diagrams",
+    "slug": "atomic-learning-mermaid-diagrams",
+    "description": "A tutorial on how to include Mermaid diagrams in Atomic Learning content pages.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning",
+        "mermaid"
     ],
-    "duration": 0,
+    "duration": 2,
     "prerequisites": [
-        "",
-        ""
+        "atomic-learning-content-file",
+        "mermaid-nodes-links",
+        "mermaid-accessibility",
+        "html-classes",
+        "html-div-element"
     ],
     "related": [
-        "",
-        ""
     ]
 }

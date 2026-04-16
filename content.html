@@ -1,1 +1,21 @@
+<p>To include a Mermaid diagram in an Atomic Learning content page, you should include it in a <code class="language-html">&lt;div&gt;</code> element with the <code class="language-html">mermaid</code> class.</p>
 
+<p>You should also specify the <code>accTitle</code> and <code>accDescr</code> values within the Mermaid diagram for accessibility. The description in <code>accDesc</code> will often describe the exact relationships in the diagram but, at least, it should convey the main purpose and important points of the diagram.</p>
+
+<p>The following code:</p>
+
+<pre><code class="language-mermaid">graph TD
+    accTitle: A Simple Mermaid Diagram
+    accDescr {Contains two nodes: Node 1 and Node 2
+        Node 1 is connected to Node 2 with a directed edge}
+    A[Node 1] --> B[Node 2]</code></pre>
+
+<p>will render as:</p>
+
+<div class="mermaid">
+graph TD
+    accTitle: A Simple Mermaid Diagram
+    accDescr {Contains two nodes: Node 1 and Node 2
+        Node 1 is connected to Node 2 with a directed edge}
+    A[Node 1] --> B[Node 2]
+</div>
