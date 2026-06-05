@@ -22,9 +22,8 @@ graph TD
 </div>
 
 ```mermaid
-graph TD
-    accTitle: A Simple Mermaid Diagram
-    accDescr {Contains two nodes: Node 1 and Node 2
-        Node 1 is connected to Node 2 with a directed edge}
-    A[Node 1] --> B[Node 2]
+    graph TD;
+    accTitle: A Simple Mermaid Diagram;
+    accDescr {Contains two nodes: Node 1 and Node 2. Node 1 is connected to Node 2 with a directed edge};
+    A[Node 1] --> B[Node 2];
 ```
