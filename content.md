@@ -1,4 +1,4 @@
-To include a Mermaid diagram in an Atomic Learning `content.html`{.md} file, you should use standard Mermaid syntax within Markdown. For instance, the following code:
+To include a Mermaid diagram in an Atomic Learning `content.md` file, you should use standard Mermaid syntax within Markdown. For instance, the following code:
 
 ````markdown
 ```mermaid
