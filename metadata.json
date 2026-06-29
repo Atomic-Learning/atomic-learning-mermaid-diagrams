@@ -13,9 +13,7 @@
     "prerequisites": [
         "atomic-learning-content-file",
         "mermaid-nodes-links",
-        "mermaid-accessibility",
-        "html-classes",
-        "html-div-element"
+        "mermaid-accessibility"
     ],
     "related": [
     ]
